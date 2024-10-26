@@ -14,14 +14,14 @@ func GetRelationshipFactory(relationship string) (IRelationshipFactory, error) {
 		return &PaternalUncle{}, nil
 	case "Maternal-Uncle":
 		return &MaternalUncle{}, nil
-	// case "Paternal-Aunt":
-	// 	return &PaternalAunt{}, nil
-	// case "Maternal-Aunt":
-	// 	return &MaternalAunt{}, nil
-	// case "Sister-In-Law":
-	// 	return &SisterInLaw{}, nil
-	// case "Brother-In-Law":
-	// 	return &BrotherInLaw{}, nil
+	case "Paternal-Aunt":
+		return &PaternalAunt{}, nil
+	case "Maternal-Aunt":
+		return &MaternalAunt{}, nil
+	case "Sister-In-Law":
+		return &SisterInLaw{}, nil
+	case "Brother-In-Law":
+		return &BrotherInLaw{}, nil
 	// case "Son":
 	// 	return &Son{}, nil
 	// case "Daughter":

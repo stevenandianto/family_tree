@@ -155,4 +155,8 @@ func main() {
 	//Check Relationship
 	lengaburuFamilyTree.GetRelationship("Dominique", "Paternal-Uncle")
 	lengaburuFamilyTree.GetRelationship("James", "Maternal-Uncle")
+	lengaburuFamilyTree.GetRelationship("Dominique", "Paternal-Aunt")
+	lengaburuFamilyTree.GetRelationship("Remus", "Maternal-Aunt")
+	lengaburuFamilyTree.GetRelationship("Lily", "Sister-In-Law")
+	lengaburuFamilyTree.GetRelationship("Hugo", "Brother-In-Law")
 }
